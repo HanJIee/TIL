@@ -60,8 +60,7 @@ background-size: 100% 300px; ▶ 배경이미지 크기
 font-family:"굴림" ▶ 글꼴
 font-weight:700; ▶ 굵기
 color:red; ▶ 글자색
-font-size : px(기본16px), pt, cm, mm ,in(inch) em(현재크기 기준 사이즈 정해짐)
-												20일때 0.5em -> 10px						
+font-size : px(기본16px), pt, cm, mm ,in(inch) em(현재크기 기준 사이즈 정해짐) 20일때 0.5em -> 10px						
 ```
 
 
@@ -74,8 +73,7 @@ font-size : px(기본16px), pt, cm, mm ,in(inch) em(현재크기 기준 사이�
 border-lefe-style, border-right-style, border-top-style, border-bottom-style,
 boeder-color : red green blue maroon; ▶ rgb코드, 컬러명
 border-width : dotted; border-width: 2px ▶ 선의 두께 (px)
-border-style : 선모양(solid:실선 dotted:점선, dashed(긴점선), double:이중선, none,
-					groove:홈, inset:볼록)
+border-style : 선모양(solid:실선 dotted:점선, dashed(긴점선), double:이중선, none, groove:홈, inset:볼록)
 ```
 
 ```
@@ -232,8 +230,7 @@ https://www.colorzilla.com/gradient-editor/ 참고
 position: static; (좌표 속성값에 영향 받지 x) 정적
 position: relative;left: 30px; (내 HTML 기본 위치를 기준으로 위치를 설정) 상대
 position: fixed; top:100px; right:100px; (스크롤 되어도 항상 같은 곳에 위치) 지정
-position: absolute; left: 250px; bottom:100px; (조상 요소를 기준으로 위치를 설정
-												조상요소 x -> HTML기준으로 위치 설정) 절대
+position: absolute; left: 250px; bottom:100px; (조상 요소를 기준으로 위치를 설정 조상요소 x -> HTML기준으로 위치 설정) 절대
 ```
 
 
