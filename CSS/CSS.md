@@ -90,7 +90,7 @@ border: solid 5px orange;
 ```
 list-style-type: none;  (circle, square, upper-alpha...)
 list-style-position : outside; inside;
- list-style-image: url("");
+list-style-image: url("");
 ```
 
 
@@ -229,8 +229,9 @@ https://www.colorzilla.com/gradient-editor/ 참고
 ```
 position: static; (좌표 속성값에 영향 받지 x) 정적
 position: relative;left: 30px; (내 HTML 기본 위치를 기준으로 위치를 설정) 상대
+(공간차지)
 position: fixed; top:100px; right:100px; (스크롤 되어도 항상 같은 곳에 위치) 지정
-position: absolute; left: 250px; bottom:100px; (조상 요소를 기준으로 위치를 설정 조상요소 x -> HTML기준으로 위치 설정) 절대
+position: absolute; left: 250px; bottom:100px; (조상 요소를 기준으로 위치를 설정 조상요소 x -> HTML기준으로 위치 설정) 절대 (공간나옴)
 ```
 
 
@@ -242,6 +243,15 @@ position: absolute; left: 250px; bottom:100px; (조상 요소를 기준으로 �
 ```
 visibility : visible; hidden; ▶ 선택된 개체를 보여주거나 숨길수있다. 숨기더라도 공간 유지
 dispaly  : block; none; ▶ 선택된 개체를 보여주거나 숨길수있다. 숨김상태에서 공간 반납
-				
+```
+
+
+
+---
+
+#### 16.
+
+```
+overflow : outo(자동), scroll(스크롤), hidden(숨김)
 ```
 
