@@ -249,9 +249,11 @@ dispaly  : block; none; ▶ 선택된 개체를 보여주거나 숨길수있다.
 
 ---
 
-#### 16.
+#### 16. overflow
 
 ```
 overflow : outo(자동), scroll(스크롤), hidden(숨김)
 ```
+
+
 
